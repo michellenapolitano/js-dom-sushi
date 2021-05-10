@@ -1,0 +1,172 @@
+body{
+  background:lightgrey;
+  margin: 60px;
+}
+
+
+#wrapper{
+width:100%;
+height:100%;
+margin-top: 10px;
+}
+
+.title {
+font-family: 'Lemon', cursive;
+font-size: 35px;
+color: white;
+-webkit-text-stroke-width: 2px;
+ -webkit-text-stroke-color: black;
+ margin-bottom: 8px;
+
+}
+  
+.button {
+  font-size: 30px;
+  font-family: sans-serif;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  max-width: 100px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.board {
+	max-width: 1100px;
+	position: absolute;
+	z-index: -2;
+	top: 150px;
+}
+
+.new-sushi {
+	z-index: 1;
+	position:absolute;
+	width:300px;
+	height:300px;
+}
+
+.sauce{
+	position: absolute;
+	float: right;
+	right: 0;
+	bottom: 27%;
+  font-size: 30px;
+  font-family: 'Lemon', cursive;
+  border: 2px solid white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  max-width: 100px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.sauce1{
+	position: relative;
+	z-index: 2;
+	margin-top: 300px;
+	display: inline-block;
+	align-items: flex-start;
+	float: right;
+	height:70px;
+	width:70px;
+	background-color: #59a523;
+	cursor: pointer;
+	font-family: 'Lemon', cursive;
+	text-align: center;
+    box-shadow: 0px 0px 15px #000;
+}
+
+.sauce2{
+	position: relative;
+	margin-top: 300px;
+	z-index: 2;
+	display: inline-block;
+	float: right;
+	height:70px;
+	width:70px;
+	background-color: #FDF06F;
+    box-shadow: 0px 0px 15px #000;
+	cursor: pointer;
+	font-family: 'Lemon', cursive;
+	text-align: center;
+}
+
+.sauce3{
+	position: relative;
+	margin-top: 300px;
+	z-index: 2;
+	display: inline-block;
+	float: right;
+	height:70px;
+	width:70px;
+	background-color: pink;
+    box-shadow: 0px 0px 15px #000;
+	cursor: pointer;
+	font-family: 'Lemon', cursive;
+	text-align: center;
+}
+
+.sauce4{
+	position: relative;
+	margin-top: 300px;
+	z-index: 2;
+	display: inline-block;
+	float: right;
+	height:70px;
+	width:70px;
+	background-color: #CC5500;
+    box-shadow: 0px 0px 15px #000;
+	cursor: pointer;
+	font-family: 'Lemon', cursive;
+	text-align: left;
+}
+
+.sauce5{
+	position: relative;
+	margin-top: 300px;
+	z-index: 2;
+	display: inline-flex;
+	float: right;
+	height:70px;
+	width:70px;
+	background-color: #fed8b1;
+    box-shadow: 0px 0px 15px #000;
+	cursor: pointer;
+	font-family: 'Lemon', cursive;
+	text-align: left;
+}
+
+.remove{
+  z-index: 2;
+  font-size: 30px;
+  font-family: sans-serif;
+  border: 2px solid black;
+  background-color: #8b0000;
+  padding: 14px 28px;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  max-width: 100px;
+  text-align: left;
+  left: 40vh;
+}
+
+.count{
+  font-size: 30px;
+  font-family: sans-serif;
+  border: 2px solid white;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+  font-size: 16px;
+  max-width: 100px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
